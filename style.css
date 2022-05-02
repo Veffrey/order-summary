@@ -1,0 +1,112 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'outfit', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(225, 100%, 94%);
+    height: 100vh;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background: url(/image/pattern-background-desktop.svg);
+    background-size: contain;
+
+}
+.order-card{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    
+}
+.order-card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.order-box{
+    margin: 20px;
+}
+.order-box h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.order-box p{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+.plan-box{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    min-height: 20%;
+    border-radius: 10px;
+    background-color: hsl(224, 100%, 98%);
+    
+
+}
+.plan-box button{
+    border: none;
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+}
+.plan-box button:hover{
+    cursor: pointer;
+}
+.icon-box{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.text-box{
+    margin-left: 30px;
+    align-items: center;
+
+}
+.btn{
+    padding: 10px 0;
+
+}
+.btn button{
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 10px 5px hsl(245deg 75% 52% / 8%);
+
+}
+.btn2{
+    margin-bottom: 10px;
+
+}
+.btn2 button{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.btn a:hover{
+    cursor: pointer;
+}
+.btn2 button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:375px){
+
+Body{
+    background: url(/image/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+    
+}
